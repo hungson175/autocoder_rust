@@ -1,0 +1,74 @@
+[
+  {
+    "route": "/fitness_progress",
+    "is_route_dynamic": "false",
+    "method": "post",
+    "request_body": {
+      "id": "number",
+      "user_id": "number",
+      "activity": "string",
+      "duration": "number",
+      "timestamp": "string"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/fitness_progress",
+    "is_route_dynamic": "false",
+    "method": "get",
+    "request_body": "None",
+    "response": [
+      {
+        "id": "number",
+        "user_id": "number",
+        "activity": "string",
+        "duration": "number",
+        "timestamp": "string"
+      }
+    ]
+  },
+  {
+    "route": "/fitness_progress",
+    "is_route_dynamic": "false",
+    "method": "put",
+    "request_body": {
+      "id": "number",
+      "user_id": "number",
+      "activity": "string",
+      "duration": "number",
+      "timestamp": "string"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/fitness_progress/{id}",
+    "is_route_dynamic": "true",
+    "method": "get",
+    "request_body": "None",
+    "response": {
+      "id": "number",
+      "user_id": "number",
+      "activity": "string",
+      "duration": "number",
+      "timestamp": "string"
+    }
+  },
+  {
+    "route": "/fitness_progress/{id}",
+    "is_route_dynamic": "true",
+    "method": "delete",
+    "request_body": "None",
+    "response": "None"
+  },
+  {
+    "route": "/register",
+    "is_route_dynamic": "false",
+    "method": "post",
+    "request_body": {
+      "id": "number",
+      "username": "string",
+      "timezone": "string"
+    },
+    "response": "None"
+  }
+]
